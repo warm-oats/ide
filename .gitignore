@@ -1,0 +1,41 @@
+node_modules/
+
+# Electron build output
+dist/
+out/
+release/
+build/
+*.asar
+
+# Electron Builder artifacts
+artifacts/
+*.blockmap
+
+# Logs and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+*.stackdump
+
+# Runtime and environment files
+.env
+.env.*
+!.env.example
+*.pid
+*.seed
+*.pid.lock
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+.nyc_output/
